@@ -1,0 +1,17 @@
+//
+//  SDKMixTools-prefix.pch
+//  SDKMixTools
+//
+//  Created by chr on 2020/3/19.
+//  Copyright © 2020 chr. All rights reserved.
+//
+
+#ifndef CXSDKPrefixDemo_prefix_pch
+#define CXSDKPrefixDemo_prefix_pch
+#import <UIKit/UIKit.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#pragma clang diagnostic ignored "-Wunknown-escape-sequence"
+
+#endif /* CXSDKPrefixDemo_prefix_pch */

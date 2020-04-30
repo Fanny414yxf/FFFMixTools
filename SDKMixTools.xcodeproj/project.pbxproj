@@ -1,0 +1,1345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3010014C24235A9500A52D4A /* CXObjectEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010014B24235A9500A52D4A /* CXObjectEntity.m */; };
+		3010014F24236FBF00A52D4A /* CXParamEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010014E24236FBF00A52D4A /* CXParamEntity.m */; };
+		301001522423777800A52D4A /* CXRegularExpressionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 301001512423777800A52D4A /* CXRegularExpressionHelper.m */; };
+		30222FAF241F13B0002C2954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30222FAE241F13B0002C2954 /* AppDelegate.m */; };
+		30222FB2241F13B0002C2954 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30222FB1241F13B0002C2954 /* SceneDelegate.m */; };
+		30222FB5241F13B0002C2954 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30222FB4241F13B0002C2954 /* FirstViewController.m */; };
+		30222FB8241F13B0002C2954 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30222FB7241F13B0002C2954 /* SecondViewController.m */; };
+		30222FBB241F13B0002C2954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30222FB9241F13B0002C2954 /* Main.storyboard */; };
+		30222FBD241F13B1002C2954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30222FBC241F13B1002C2954 /* Assets.xcassets */; };
+		30222FC0241F13B1002C2954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30222FBE241F13B1002C2954 /* LaunchScreen.storyboard */; };
+		30222FC3241F13B1002C2954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30222FC2241F13B1002C2954 /* main.m */; };
+		3038D85524206C1E0019F114 /* CXMethodGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038D85424206C1E0019F114 /* CXMethodGenerator.m */; };
+		304091162435C6DA00B10D69 /* NSArray+CXMixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091152435C6DA00B10D69 /* NSArray+CXMixture.m */; };
+		304091192435CE3A00B10D69 /* NSString+CXMixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091182435CE3A00B10D69 /* NSString+CXMixture.m */; };
+		3040911C24360A5300B10D69 /* NSMutableString+CXMixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040911B24360A5300B10D69 /* NSMutableString+CXMixture.m */; };
+		3040911E2436D32F00B10D69 /* CXMethodsPrefixTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040911D2436D32F00B10D69 /* CXMethodsPrefixTool.m */; };
+		304091212436D3D800B10D69 /* CXMethodsListHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091202436D3D800B10D69 /* CXMethodsListHelper.m */; };
+		304091262436E43800B10D69 /* CXMetaUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091252436E43800B10D69 /* CXMetaUIView.m */; };
+		3040912F2436E54A00B10D69 /* NSObject+CXMetaInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040912E2436E54A00B10D69 /* NSObject+CXMetaInit.m */; };
+		304091412436E86C00B10D69 /* CXMetaUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091402436E86C00B10D69 /* CXMetaUITableView.m */; };
+		3040914A2436E8F000B10D69 /* CXMetaNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091492436E8F000B10D69 /* CXMetaNSArray.m */; };
+		3040915024370F9900B10D69 /* CXMetaCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040914F24370F9900B10D69 /* CXMetaCommon.m */; };
+		30409153243711C100B10D69 /* CXMetaNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409152243711C100B10D69 /* CXMetaNSData.m */; };
+		30409156243711F000B10D69 /* CXMetaUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409155243711F000B10D69 /* CXMetaUIButton.m */; };
+		304091592437120A00B10D69 /* CXMetaUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091582437120A00B10D69 /* CXMetaUIImageView.m */; };
+		3040915C2437121C00B10D69 /* CXMetaUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040915B2437121C00B10D69 /* CXMetaUILabel.m */; };
+		3040915F2437175F00B10D69 /* CXMetaNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040915E2437175F00B10D69 /* CXMetaNSString.m */; };
+		304091622437179C00B10D69 /* CXMetaUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 304091612437179C00B10D69 /* CXMetaUITextField.m */; };
+		30409165243718AF00B10D69 /* CXMetaBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 30409164243718AF00B10D69 /* CXMetaBaseEntity.m */; };
+		3046FDCB2444658D003CE4D6 /* CXPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3046FDCA2444658D003CE4D6 /* CXPropertyHelper.m */; };
+		30710B112434BBE100423D6E /* CXMethodMetaDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30710B102434BBE100423D6E /* CXMethodMetaDataHelper.m */; };
+		30B12ED5242B0A5100F567F6 /* CXMethodEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B12ED4242B0A5100F567F6 /* CXMethodEntity.m */; };
+		C2738E8024558F0B00B1A853 /* ReseaWorldTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DA424558F0A00B1A853 /* ReseaWorldTreatment.m */; };
+		C2738E8124558F0B00B1A853 /* ReseaLivesProgression.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DA524558F0A00B1A853 /* ReseaLivesProgression.m */; };
+		C2738E8224558F0B00B1A853 /* TalentedAwardedTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DAA24558F0A00B1A853 /* TalentedAwardedTime.m */; };
+		C2738E8324558F0B00B1A853 /* FocusedSeriesAged.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DAB24558F0A00B1A853 /* FocusedSeriesAged.m */; };
+		C2738E8424558F0B00B1A853 /* CloningSequencingRoadkill.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DAC24558F0A00B1A853 /* CloningSequencingRoadkill.m */; };
+		C2738E8524558F0B00B1A853 /* EmailJury.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DAD24558F0A00B1A853 /* EmailJury.m */; };
+		C2738E8624558F0B00B1A853 /* ParasStyleGrowthSoft.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DB024558F0A00B1A853 /* ParasStyleGrowthSoft.m */; };
+		C2738E8724558F0B00B1A853 /* ParasHealthyYear.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DB124558F0A00B1A853 /* ParasHealthyYear.m */; };
+		C2738E8824558F0B00B1A853 /* ParasMultipleRoleLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DB224558F0A00B1A853 /* ParasMultipleRoleLearning.m */; };
+		C2738E8924558F0B00B1A853 /* ExcitingEasternCapturing.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DB624558F0A00B1A853 /* ExcitingEasternCapturing.m */; };
+		C2738E8A24558F0B00B1A853 /* EcologistsMuscleUnderpinned.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DB724558F0A00B1A853 /* EcologistsMuscleUnderpinned.m */; };
+		C2738E8B24558F0B00B1A853 /* include.md in Resources */ = {isa = PBXBuildFile; fileRef = C2738DB924558F0A00B1A853 /* include.md */; };
+		C2738E8C24558F0B00B1A853 /* FantasticPoorLearned.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DBB24558F0A00B1A853 /* FantasticPoorLearned.m */; };
+		C2738E8D24558F0B00B1A853 /* SizePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DBC24558F0A00B1A853 /* SizePhoto.m */; };
+		C2738E8E24558F0B00B1A853 /* LecturerImmediate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DBD24558F0A00B1A853 /* LecturerImmediate.m */; };
+		C2738E8F24558F0B00B1A853 /* TimeBackgroundTeaching.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DBE24558F0A00B1A853 /* TimeBackgroundTeaching.m */; };
+		C2738E9024558F0B00B1A853 /* AnimalsFundingYears.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DC224558F0A00B1A853 /* AnimalsFundingYears.m */; };
+		C2738E9124558F0B00B1A853 /* StudentsRecently.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DC424558F0A00B1A853 /* StudentsRecently.m */; };
+		C2738E9224558F0B00B1A853 /* StudentsState.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DC524558F0A00B1A853 /* StudentsState.m */; };
+		C2738E9324558F0B00B1A853 /* ResearchTotal.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DC624558F0A00B1A853 /* ResearchTotal.m */; };
+		C2738E9424558F0B00B1A853 /* MedicineAssessingNominated.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DC824558F0A00B1A853 /* MedicineAssessingNominated.m */; };
+		C2738E9524558F0B00B1A853 /* ReducImmuneFatty.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DCD24558F0A00B1A853 /* ReducImmuneFatty.m */; };
+		C2738E9624558F0B00B1A853 /* ReducKnowledgeCourting.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DCE24558F0A00B1A853 /* ReducKnowledgeCourting.m */; };
+		C2738E9724558F0B00B1A853 /* RetreTrackedConclusionsPursue.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DD624558F0A00B1A853 /* RetreTrackedConclusionsPursue.m */; };
+		C2738E9824558F0B00B1A853 /* RetreBitData.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DD724558F0A00B1A853 /* RetreBitData.m */; };
+		C2738E9924558F0B00B1A853 /* RetreLeadPossibleEverything.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DD824558F0A00B1A853 /* RetreLeadPossibleEverything.m */; };
+		C2738E9A24558F0B00B1A853 /* RetreBiggestGrowSeeking.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DD924558F0A00B1A853 /* RetreBiggestGrowSeeking.m */; };
+		C2738E9B24558F0B00B1A853 /* TrainInnovationsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DDE24558F0A00B1A853 /* TrainInnovationsExample.m */; };
+		C2738E9C24558F0B00B1A853 /* TrainRaceMemories.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DDF24558F0A00B1A853 /* TrainRaceMemories.m */; };
+		C2738E9D24558F0B00B1A853 /* TrainCellLecturers.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DE324558F0A00B1A853 /* TrainCellLecturers.m */; };
+		C2738E9E24558F0B00B1A853 /* StudentTeams.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DE424558F0A00B1A853 /* StudentTeams.m */; };
+		C2738E9F24558F0B00B1A853 /* HealtCopeTitled.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DE824558F0A00B1A853 /* HealtCopeTitled.m */; };
+		C2738EA024558F0B00B1A853 /* HealtHomeRefinery.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DE924558F0A00B1A853 /* HealtHomeRefinery.m */; };
+		C2738EA124558F0B00B1A853 /* HealtGrowingInflatable.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DEB24558F0A00B1A853 /* HealtGrowingInflatable.m */; };
+		C2738EA224558F0B00B1A853 /* IndustryFatPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DED24558F0A00B1A853 /* IndustryFatPictures.m */; };
+		C2738EA324558F0B00B1A853 /* InnovWheatearsProvidingNone.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF024558F0A00B1A853 /* InnovWheatearsProvidingNone.m */; };
+		C2738EA424558F0B00B1A853 /* InnovDiseaseDiseaseOverall.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF124558F0A00B1A853 /* InnovDiseaseDiseaseOverall.m */; };
+		C2738EA524558F0B00B1A853 /* JournalWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF324558F0A00B1A853 /* JournalWork.m */; };
+		C2738EA624558F0B00B1A853 /* SupportedResearchConstituent.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF424558F0A00B1A853 /* SupportedResearchConstituent.m */; };
+		C2738EA724558F0B00B1A853 /* CompletedFeel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF524558F0A00B1A853 /* CompletedFeel.m */; };
+		C2738EA824558F0B00B1A853 /* FeatureEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DF624558F0A00B1A853 /* FeatureEpisode.m */; };
+		C2738EA924558F0B00B1A853 /* ScienDivisionBroad.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DFA24558F0A00B1A853 /* ScienDivisionBroad.m */; };
+		C2738EAA24558F0B00B1A853 /* ScienBodysAvailableDonations.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738DFB24558F0A00B1A853 /* ScienBodysAvailableDonations.m */; };
+		C2738EAB24558F0B00B1A853 /* FoundEvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0124558F0A00B1A853 /* FoundEvolution.m */; };
+		C2738EAC24558F0B00B1A853 /* EstablishCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0224558F0A00B1A853 /* EstablishCriteria.m */; };
+		C2738EAD24558F0B00B1A853 /* WitnessedHabitatsHumans.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0324558F0A00B1A853 /* WitnessedHabitatsHumans.m */; };
+		C2738EAE24558F0B00B1A853 /* MiceDysfunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0524558F0A00B1A853 /* MiceDysfunction.m */; };
+		C2738EAF24558F0B00B1A853 /* InhibProteinSeasonTeaching.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0A24558F0A00B1A853 /* InhibProteinSeasonTeaching.m */; };
+		C2738EB024558F0B00B1A853 /* InhibStaffEncourages.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0B24558F0A00B1A853 /* InhibStaffEncourages.m */; };
+		C2738EB124558F0B00B1A853 /* InhibNeedFactualBacteria.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0C24558F0A00B1A853 /* InhibNeedFactualBacteria.m */; };
+		C2738EB224558F0B00B1A853 /* InhibYearsComparedPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E0D24558F0A00B1A853 /* InhibYearsComparedPrevious.m */; };
+		C2738EB324558F0B00B1A853 /* CoverOldEcosystems.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1024558F0A00B1A853 /* CoverOldEcosystems.m */; };
+		C2738EB424558F0B00B1A853 /* AmaziFurtherSpecialSupported.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1524558F0B00B1A853 /* AmaziFurtherSpecialSupported.m */; };
+		C2738EB524558F0B00B1A853 /* AmaziHighlightsAwarded.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1624558F0B00B1A853 /* AmaziHighlightsAwarded.m */; };
+		C2738EB624558F0B00B1A853 /* HandInfluencedFully.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1724558F0B00B1A853 /* HandInfluencedFully.m */; };
+		C2738EB724558F0B00B1A853 /* ReceiImageDependsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1C24558F0B00B1A853 /* ReceiImageDependsClass.m */; };
+		C2738EB824558F0B00B1A853 /* ReceiEncouragingTeachingBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1D24558F0B00B1A853 /* ReceiEncouragingTeachingBrain.m */; };
+		C2738EB924558F0B00B1A853 /* ReceiStreetFoundFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E1E24558F0B00B1A853 /* ReceiStreetFoundFocus.m */; };
+		C2738EBA24558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2124558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.m */; };
+		C2738EBB24558F0B00B1A853 /* ProjeTechniquesSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2224558F0B00B1A853 /* ProjeTechniquesSimple.m */; };
+		C2738EBC24558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2324558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.m */; };
+		C2738EBD24558F0B00B1A853 /* DevelopCoatControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2924558F0B00B1A853 /* DevelopCoatControl.m */; };
+		C2738EBE24558F0B00B1A853 /* WhetherAnnual.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2C24558F0B00B1A853 /* WhetherAnnual.m */; };
+		C2738EBF24558F0B00B1A853 /* SpeciesTechnology.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E2E24558F0B00B1A853 /* SpeciesTechnology.m */; };
+		C2738EC024558F0B00B1A853 /* InhibitCells.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3024558F0B00B1A853 /* InhibitCells.m */; };
+		C2738EC124558F0B00B1A853 /* DrivenIntroduced.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3424558F0B00B1A853 /* DrivenIntroduced.m */; };
+		C2738EC224558F0B00B1A853 /* DelicatelyLink.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3624558F0B00B1A853 /* DelicatelyLink.m */; };
+		C2738EC324558F0B00B1A853 /* EventBackyards.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3724558F0B00B1A853 /* EventBackyards.m */; };
+		C2738EC424558F0B00B1A853 /* AuthorDisorders.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3824558F0B00B1A853 /* AuthorDisorders.m */; };
+		C2738EC524558F0B00B1A853 /* IdentifyAmazing.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E3C24558F0B00B1A853 /* IdentifyAmazing.m */; };
+		C2738EC624558F0B00B1A853 /* BrainAuthorFixedtermNest.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E4124558F0B00B1A853 /* BrainAuthorFixedtermNest.m */; };
+		C2738EC724558F0B00B1A853 /* BrainAdultsMale.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E4224558F0B00B1A853 /* BrainAdultsMale.m */; };
+		C2738EC824558F0B00B1A853 /* BrainOwnersInstructingProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E4324558F0B00B1A853 /* BrainOwnersInstructingProvide.m */; };
+		C2738EC924558F0B00B1A853 /* RunnePhotographyResearchersSnow.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E4724558F0B00B1A853 /* RunnePhotographyResearchersSnow.m */; };
+		C2738ECA24558F0B00B1A853 /* RefinRelatingDiseaseHope.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E4F24558F0B00B1A853 /* RefinRelatingDiseaseHope.m */; };
+		C2738ECB24558F0B00B1A853 /* RefinChildhoodMaternal.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5024558F0B00B1A853 /* RefinChildhoodMaternal.m */; };
+		C2738ECC24558F0B00B1A853 /* DieAffectingRegions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5324558F0B00B1A853 /* DieAffectingRegions.m */; };
+		C2738ECD24558F0B00B1A853 /* TeamGroupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5424558F0B00B1A853 /* TeamGroupResult.m */; };
+		C2738ECE24558F0B00B1A853 /* TeamOwners.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5524558F0B00B1A853 /* TeamOwners.m */; };
+		C2738ECF24558F0B00B1A853 /* FantasticSupported.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5624558F0B00B1A853 /* FantasticSupported.m */; };
+		C2738ED024558F0B00B1A853 /* BlockRangingTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5824558F0B00B1A853 /* BlockRangingTeam.m */; };
+		C2738ED124558F0B00B1A853 /* BlockDevicesInfectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5C24558F0B00B1A853 /* BlockDevicesInfectionCell.m */; };
+		C2738ED224558F0B00B1A853 /* BlockMaternalMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5D24558F0B00B1A853 /* BlockMaternalMemory.m */; };
+		C2738ED324558F0B00B1A853 /* BlockAspiringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E5F24558F0B00B1A853 /* BlockAspiringTests.m */; };
+		C2738ED424558F0B00B1A853 /* ExcepAcidsAdversity.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6124558F0B00B1A853 /* ExcepAcidsAdversity.m */; };
+		C2738ED524558F0B00B1A853 /* ExcepStressorsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6224558F0B00B1A853 /* ExcepStressorsGroup.m */; };
+		C2738ED624558F0B00B1A853 /* ExcepAwarenessConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6324558F0B00B1A853 /* ExcepAwarenessConstant.m */; };
+		C2738ED724558F0B00B1A853 /* PatientsDisseminate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6724558F0B00B1A853 /* PatientsDisseminate.m */; };
+		C2738ED824558F0B00B1A853 /* GlobalEnvelopeStudying.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6824558F0B00B1A853 /* GlobalEnvelopeStudying.m */; };
+		C2738ED924558F0B00B1A853 /* AssistStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6924558F0B00B1A853 /* AssistStrategies.m */; };
+		C2738EDA24558F0B00B1A853 /* JudgesCellsStriving.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6B24558F0B00B1A853 /* JudgesCellsStriving.m */; };
+		C2738EDB24558F0B00B1A853 /* GrowingConflict.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E6C24558F0B00B1A853 /* GrowingConflict.m */; };
+		C2738EDC24558F0B00B1A853 /* MinimTrialsKnown.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7124558F0B00B1A853 /* MinimTrialsKnown.m */; };
+		C2738EDD24558F0B00B1A853 /* MinimCellUnexpectedWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7224558F0B00B1A853 /* MinimCellUnexpectedWorking.m */; };
+		C2738EDE24558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7624558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.m */; };
+		C2738EDF24558F0B00B1A853 /* ComplexKindDebut.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7724558F0B00B1A853 /* ComplexKindDebut.m */; };
+		C2738EE024558F0B00B1A853 /* PartDiscussionAntibiotics.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7924558F0B00B1A853 /* PartDiscussionAntibiotics.m */; };
+		C2738EE124558F0B00B1A853 /* PeakedBehaviouralInvitro.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7A24558F0B00B1A853 /* PeakedBehaviouralInvitro.m */; };
+		C2738EE224558F0B00B1A853 /* EngagLanguageDroplets.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7D24558F0B00B1A853 /* EngagLanguageDroplets.m */; };
+		C2738EE324558F0B00B1A853 /* YoungLearnReally.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7E24558F0B00B1A853 /* YoungLearnReally.m */; };
+		C2738EE424558F0B00B1A853 /* ReallyIsolated.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738E7F24558F0B00B1A853 /* ReallyIsolated.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301001492423258F00A52D4A /* SDKMixTools-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDKMixTools-prefix.pch"; sourceTree = "<group>"; };
+		3010014A24235A9500A52D4A /* CXObjectEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXObjectEntity.h; sourceTree = "<group>"; };
+		3010014B24235A9500A52D4A /* CXObjectEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXObjectEntity.m; sourceTree = "<group>"; };
+		3010014D24236FBF00A52D4A /* CXParamEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXParamEntity.h; sourceTree = "<group>"; };
+		3010014E24236FBF00A52D4A /* CXParamEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXParamEntity.m; sourceTree = "<group>"; };
+		301001502423777800A52D4A /* CXRegularExpressionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXRegularExpressionHelper.h; sourceTree = "<group>"; };
+		301001512423777800A52D4A /* CXRegularExpressionHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXRegularExpressionHelper.m; sourceTree = "<group>"; };
+		301BCD7B24285F87001D19DD /* CXConfuseConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXConfuseConsts.h; sourceTree = "<group>"; };
+		30222FAA241F13B0002C2954 /* SDKMixTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKMixTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30222FAD241F13B0002C2954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30222FAE241F13B0002C2954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30222FB0241F13B0002C2954 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30222FB1241F13B0002C2954 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30222FB3241F13B0002C2954 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		30222FB4241F13B0002C2954 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		30222FB6241F13B0002C2954 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		30222FB7241F13B0002C2954 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		30222FBA241F13B0002C2954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30222FBC241F13B1002C2954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30222FBF241F13B1002C2954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30222FC2241F13B1002C2954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30222FCC241F13B1002C2954 /* CXSDKPrefixDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXSDKPrefixDemoTests.m; sourceTree = "<group>"; };
+		30222FCE241F13B1002C2954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30222FD7241F13B1002C2954 /* CXSDKPrefixDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXSDKPrefixDemoUITests.m; sourceTree = "<group>"; };
+		30222FD9241F13B1002C2954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30222FE6241F14DA002C2954 /* CXNethodsMixtueTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNethodsMixtueTool.h; sourceTree = "<group>"; };
+		3038D85324206C1E0019F114 /* CXMethodGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMethodGenerator.h; sourceTree = "<group>"; };
+		3038D85424206C1E0019F114 /* CXMethodGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMethodGenerator.m; sourceTree = "<group>"; };
+		304091142435C6DA00B10D69 /* NSArray+CXMixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CXMixture.h"; sourceTree = "<group>"; };
+		304091152435C6DA00B10D69 /* NSArray+CXMixture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CXMixture.m"; sourceTree = "<group>"; };
+		304091172435CE3A00B10D69 /* NSString+CXMixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CXMixture.h"; sourceTree = "<group>"; };
+		304091182435CE3A00B10D69 /* NSString+CXMixture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CXMixture.m"; sourceTree = "<group>"; };
+		3040911A24360A5300B10D69 /* NSMutableString+CXMixture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+CXMixture.h"; sourceTree = "<group>"; };
+		3040911B24360A5300B10D69 /* NSMutableString+CXMixture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+CXMixture.m"; sourceTree = "<group>"; };
+		3040911D2436D32F00B10D69 /* CXMethodsPrefixTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMethodsPrefixTool.m; sourceTree = "<group>"; };
+		3040911F2436D3D800B10D69 /* CXMethodsListHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMethodsListHelper.h; sourceTree = "<group>"; };
+		304091202436D3D800B10D69 /* CXMethodsListHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMethodsListHelper.m; sourceTree = "<group>"; };
+		304091242436E43800B10D69 /* CXMetaUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUIView.h; sourceTree = "<group>"; };
+		304091252436E43800B10D69 /* CXMetaUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUIView.m; sourceTree = "<group>"; };
+		3040912D2436E54A00B10D69 /* NSObject+CXMetaInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CXMetaInit.h"; sourceTree = "<group>"; };
+		3040912E2436E54A00B10D69 /* NSObject+CXMetaInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CXMetaInit.m"; sourceTree = "<group>"; };
+		3040913F2436E86C00B10D69 /* CXMetaUITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUITableView.h; sourceTree = "<group>"; };
+		304091402436E86C00B10D69 /* CXMetaUITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUITableView.m; sourceTree = "<group>"; };
+		304091482436E8F000B10D69 /* CXMetaNSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaNSArray.h; sourceTree = "<group>"; };
+		304091492436E8F000B10D69 /* CXMetaNSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaNSArray.m; sourceTree = "<group>"; };
+		3040914E24370F9900B10D69 /* CXMetaCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaCommon.h; sourceTree = "<group>"; };
+		3040914F24370F9900B10D69 /* CXMetaCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaCommon.m; sourceTree = "<group>"; };
+		30409151243711C100B10D69 /* CXMetaNSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaNSData.h; sourceTree = "<group>"; };
+		30409152243711C100B10D69 /* CXMetaNSData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaNSData.m; sourceTree = "<group>"; };
+		30409154243711F000B10D69 /* CXMetaUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUIButton.h; sourceTree = "<group>"; };
+		30409155243711F000B10D69 /* CXMetaUIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUIButton.m; sourceTree = "<group>"; };
+		304091572437120A00B10D69 /* CXMetaUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUIImageView.h; sourceTree = "<group>"; };
+		304091582437120A00B10D69 /* CXMetaUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUIImageView.m; sourceTree = "<group>"; };
+		3040915A2437121C00B10D69 /* CXMetaUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUILabel.h; sourceTree = "<group>"; };
+		3040915B2437121C00B10D69 /* CXMetaUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUILabel.m; sourceTree = "<group>"; };
+		3040915D2437175F00B10D69 /* CXMetaNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaNSString.h; sourceTree = "<group>"; };
+		3040915E2437175F00B10D69 /* CXMetaNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaNSString.m; sourceTree = "<group>"; };
+		304091602437179C00B10D69 /* CXMetaUITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaUITextField.h; sourceTree = "<group>"; };
+		304091612437179C00B10D69 /* CXMetaUITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaUITextField.m; sourceTree = "<group>"; };
+		30409163243718AF00B10D69 /* CXMetaBaseEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaBaseEntity.h; sourceTree = "<group>"; };
+		30409164243718AF00B10D69 /* CXMetaBaseEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMetaBaseEntity.m; sourceTree = "<group>"; };
+		3040916624371D3700B10D69 /* CXMetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMetaData.h; sourceTree = "<group>"; };
+		3046FDC82443FDBD003CE4D6 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		3046FDC92444658D003CE4D6 /* CXPropertyHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPropertyHelper.h; sourceTree = "<group>"; };
+		3046FDCA2444658D003CE4D6 /* CXPropertyHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPropertyHelper.m; sourceTree = "<group>"; };
+		30710B0F2434BBE100423D6E /* CXMethodMetaDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMethodMetaDataHelper.h; sourceTree = "<group>"; };
+		30710B102434BBE100423D6E /* CXMethodMetaDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMethodMetaDataHelper.m; sourceTree = "<group>"; };
+		30719B67244075DE00E52C5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B12ED3242B0A5100F567F6 /* CXMethodEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMethodEntity.h; sourceTree = "<group>"; };
+		30B12ED4242B0A5100F567F6 /* CXMethodEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMethodEntity.m; sourceTree = "<group>"; };
+		30B12ED6242B331000F567F6 /* CXWordsConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXWordsConsts.h; sourceTree = "<group>"; };
+		C2738DA424558F0A00B1A853 /* ReseaWorldTreatment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReseaWorldTreatment.m; sourceTree = "<group>"; };
+		C2738DA524558F0A00B1A853 /* ReseaLivesProgression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReseaLivesProgression.m; sourceTree = "<group>"; };
+		C2738DA624558F0A00B1A853 /* ReseaWorldTreatment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReseaWorldTreatment.h; sourceTree = "<group>"; };
+		C2738DA724558F0A00B1A853 /* ReseaLivesProgression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReseaLivesProgression.h; sourceTree = "<group>"; };
+		C2738DA824558F0A00B1A853 /* SpeciesTechnology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeciesTechnology.h; sourceTree = "<group>"; };
+		C2738DA924558F0A00B1A853 /* WhetherAnnual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhetherAnnual.h; sourceTree = "<group>"; };
+		C2738DAA24558F0A00B1A853 /* TalentedAwardedTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalentedAwardedTime.m; sourceTree = "<group>"; };
+		C2738DAB24558F0A00B1A853 /* FocusedSeriesAged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusedSeriesAged.m; sourceTree = "<group>"; };
+		C2738DAC24558F0A00B1A853 /* CloningSequencingRoadkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloningSequencingRoadkill.m; sourceTree = "<group>"; };
+		C2738DAD24558F0A00B1A853 /* EmailJury.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailJury.m; sourceTree = "<group>"; };
+		C2738DAE24558F0A00B1A853 /* DevelopCoatControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevelopCoatControl.h; sourceTree = "<group>"; };
+		C2738DB024558F0A00B1A853 /* ParasStyleGrowthSoft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParasStyleGrowthSoft.m; sourceTree = "<group>"; };
+		C2738DB124558F0A00B1A853 /* ParasHealthyYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParasHealthyYear.m; sourceTree = "<group>"; };
+		C2738DB224558F0A00B1A853 /* ParasMultipleRoleLearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParasMultipleRoleLearning.m; sourceTree = "<group>"; };
+		C2738DB324558F0A00B1A853 /* ParasHealthyYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParasHealthyYear.h; sourceTree = "<group>"; };
+		C2738DB424558F0A00B1A853 /* ParasStyleGrowthSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParasStyleGrowthSoft.h; sourceTree = "<group>"; };
+		C2738DB524558F0A00B1A853 /* ParasMultipleRoleLearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParasMultipleRoleLearning.h; sourceTree = "<group>"; };
+		C2738DB624558F0A00B1A853 /* ExcitingEasternCapturing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcitingEasternCapturing.m; sourceTree = "<group>"; };
+		C2738DB724558F0A00B1A853 /* EcologistsMuscleUnderpinned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcologistsMuscleUnderpinned.m; sourceTree = "<group>"; };
+		C2738DB824558F0A00B1A853 /* HandInfluencedFully.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandInfluencedFully.h; sourceTree = "<group>"; };
+		C2738DB924558F0A00B1A853 /* include.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = include.md; sourceTree = "<group>"; };
+		C2738DBA24558F0A00B1A853 /* IdentifyAmazing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentifyAmazing.h; sourceTree = "<group>"; };
+		C2738DBB24558F0A00B1A853 /* FantasticPoorLearned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasticPoorLearned.m; sourceTree = "<group>"; };
+		C2738DBC24558F0A00B1A853 /* SizePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizePhoto.m; sourceTree = "<group>"; };
+		C2738DBD24558F0A00B1A853 /* LecturerImmediate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LecturerImmediate.m; sourceTree = "<group>"; };
+		C2738DBE24558F0A00B1A853 /* TimeBackgroundTeaching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeBackgroundTeaching.m; sourceTree = "<group>"; };
+		C2738DBF24558F0A00B1A853 /* EventBackyards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBackyards.h; sourceTree = "<group>"; };
+		C2738DC024558F0A00B1A853 /* AuthorDisorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorDisorders.h; sourceTree = "<group>"; };
+		C2738DC124558F0A00B1A853 /* DelicatelyLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelicatelyLink.h; sourceTree = "<group>"; };
+		C2738DC224558F0A00B1A853 /* AnimalsFundingYears.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalsFundingYears.m; sourceTree = "<group>"; };
+		C2738DC324558F0A00B1A853 /* DrivenIntroduced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrivenIntroduced.h; sourceTree = "<group>"; };
+		C2738DC424558F0A00B1A853 /* StudentsRecently.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsRecently.m; sourceTree = "<group>"; };
+		C2738DC524558F0A00B1A853 /* StudentsState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsState.m; sourceTree = "<group>"; };
+		C2738DC624558F0A00B1A853 /* ResearchTotal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchTotal.m; sourceTree = "<group>"; };
+		C2738DC724558F0A00B1A853 /* InhibitCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InhibitCells.h; sourceTree = "<group>"; };
+		C2738DC824558F0A00B1A853 /* MedicineAssessingNominated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineAssessingNominated.m; sourceTree = "<group>"; };
+		C2738DCA24558F0A00B1A853 /* GlobalEnvelopeStudying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalEnvelopeStudying.h; sourceTree = "<group>"; };
+		C2738DCB24558F0A00B1A853 /* PatientsDisseminate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsDisseminate.h; sourceTree = "<group>"; };
+		C2738DCD24558F0A00B1A853 /* ReducImmuneFatty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReducImmuneFatty.m; sourceTree = "<group>"; };
+		C2738DCE24558F0A00B1A853 /* ReducKnowledgeCourting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReducKnowledgeCourting.m; sourceTree = "<group>"; };
+		C2738DCF24558F0A00B1A853 /* ReducImmuneFatty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReducImmuneFatty.h; sourceTree = "<group>"; };
+		C2738DD024558F0A00B1A853 /* ReducKnowledgeCourting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReducKnowledgeCourting.h; sourceTree = "<group>"; };
+		C2738DD224558F0A00B1A853 /* RetreTrackedConclusionsPursue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetreTrackedConclusionsPursue.h; sourceTree = "<group>"; };
+		C2738DD324558F0A00B1A853 /* RetreLeadPossibleEverything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetreLeadPossibleEverything.h; sourceTree = "<group>"; };
+		C2738DD424558F0A00B1A853 /* RetreBitData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetreBitData.h; sourceTree = "<group>"; };
+		C2738DD524558F0A00B1A853 /* RetreBiggestGrowSeeking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetreBiggestGrowSeeking.h; sourceTree = "<group>"; };
+		C2738DD624558F0A00B1A853 /* RetreTrackedConclusionsPursue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetreTrackedConclusionsPursue.m; sourceTree = "<group>"; };
+		C2738DD724558F0A00B1A853 /* RetreBitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetreBitData.m; sourceTree = "<group>"; };
+		C2738DD824558F0A00B1A853 /* RetreLeadPossibleEverything.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetreLeadPossibleEverything.m; sourceTree = "<group>"; };
+		C2738DD924558F0A00B1A853 /* RetreBiggestGrowSeeking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetreBiggestGrowSeeking.m; sourceTree = "<group>"; };
+		C2738DDA24558F0A00B1A853 /* FantasticSupported.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasticSupported.h; sourceTree = "<group>"; };
+		C2738DDB24558F0A00B1A853 /* TeamOwners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamOwners.h; sourceTree = "<group>"; };
+		C2738DDC24558F0A00B1A853 /* TeamGroupResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamGroupResult.h; sourceTree = "<group>"; };
+		C2738DDE24558F0A00B1A853 /* TrainInnovationsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainInnovationsExample.m; sourceTree = "<group>"; };
+		C2738DDF24558F0A00B1A853 /* TrainRaceMemories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainRaceMemories.m; sourceTree = "<group>"; };
+		C2738DE024558F0A00B1A853 /* TrainCellLecturers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainCellLecturers.h; sourceTree = "<group>"; };
+		C2738DE124558F0A00B1A853 /* TrainInnovationsExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainInnovationsExample.h; sourceTree = "<group>"; };
+		C2738DE224558F0A00B1A853 /* TrainRaceMemories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainRaceMemories.h; sourceTree = "<group>"; };
+		C2738DE324558F0A00B1A853 /* TrainCellLecturers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainCellLecturers.m; sourceTree = "<group>"; };
+		C2738DE424558F0A00B1A853 /* StudentTeams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTeams.m; sourceTree = "<group>"; };
+		C2738DE524558F0A00B1A853 /* DieAffectingRegions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieAffectingRegions.h; sourceTree = "<group>"; };
+		C2738DE724558F0A00B1A853 /* HealtGrowingInflatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealtGrowingInflatable.h; sourceTree = "<group>"; };
+		C2738DE824558F0A00B1A853 /* HealtCopeTitled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealtCopeTitled.m; sourceTree = "<group>"; };
+		C2738DE924558F0A00B1A853 /* HealtHomeRefinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealtHomeRefinery.m; sourceTree = "<group>"; };
+		C2738DEA24558F0A00B1A853 /* HealtCopeTitled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealtCopeTitled.h; sourceTree = "<group>"; };
+		C2738DEB24558F0A00B1A853 /* HealtGrowingInflatable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealtGrowingInflatable.m; sourceTree = "<group>"; };
+		C2738DEC24558F0A00B1A853 /* HealtHomeRefinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealtHomeRefinery.h; sourceTree = "<group>"; };
+		C2738DED24558F0A00B1A853 /* IndustryFatPictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndustryFatPictures.m; sourceTree = "<group>"; };
+		C2738DEF24558F0A00B1A853 /* InnovDiseaseDiseaseOverall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnovDiseaseDiseaseOverall.h; sourceTree = "<group>"; };
+		C2738DF024558F0A00B1A853 /* InnovWheatearsProvidingNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnovWheatearsProvidingNone.m; sourceTree = "<group>"; };
+		C2738DF124558F0A00B1A853 /* InnovDiseaseDiseaseOverall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnovDiseaseDiseaseOverall.m; sourceTree = "<group>"; };
+		C2738DF224558F0A00B1A853 /* InnovWheatearsProvidingNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnovWheatearsProvidingNone.h; sourceTree = "<group>"; };
+		C2738DF324558F0A00B1A853 /* JournalWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalWork.m; sourceTree = "<group>"; };
+		C2738DF424558F0A00B1A853 /* SupportedResearchConstituent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportedResearchConstituent.m; sourceTree = "<group>"; };
+		C2738DF524558F0A00B1A853 /* CompletedFeel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedFeel.m; sourceTree = "<group>"; };
+		C2738DF624558F0A00B1A853 /* FeatureEpisode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureEpisode.m; sourceTree = "<group>"; };
+		C2738DF824558F0A00B1A853 /* ScienDivisionBroad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienDivisionBroad.h; sourceTree = "<group>"; };
+		C2738DF924558F0A00B1A853 /* ScienBodysAvailableDonations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienBodysAvailableDonations.h; sourceTree = "<group>"; };
+		C2738DFA24558F0A00B1A853 /* ScienDivisionBroad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienDivisionBroad.m; sourceTree = "<group>"; };
+		C2738DFB24558F0A00B1A853 /* ScienBodysAvailableDonations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienBodysAvailableDonations.m; sourceTree = "<group>"; };
+		C2738DFC24558F0A00B1A853 /* YoungLearnReally.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoungLearnReally.h; sourceTree = "<group>"; };
+		C2738DFD24558F0A00B1A853 /* ReallyIsolated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReallyIsolated.h; sourceTree = "<group>"; };
+		C2738DFE24558F0A00B1A853 /* PeakedBehaviouralInvitro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakedBehaviouralInvitro.h; sourceTree = "<group>"; };
+		C2738DFF24558F0A00B1A853 /* ComplexKindDebut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexKindDebut.h; sourceTree = "<group>"; };
+		C2738E0024558F0A00B1A853 /* PartDiscussionAntibiotics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartDiscussionAntibiotics.h; sourceTree = "<group>"; };
+		C2738E0124558F0A00B1A853 /* FoundEvolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundEvolution.m; sourceTree = "<group>"; };
+		C2738E0224558F0A00B1A853 /* EstablishCriteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstablishCriteria.m; sourceTree = "<group>"; };
+		C2738E0324558F0A00B1A853 /* WitnessedHabitatsHumans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WitnessedHabitatsHumans.m; sourceTree = "<group>"; };
+		C2738E0424558F0A00B1A853 /* GrowingConflict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingConflict.h; sourceTree = "<group>"; };
+		C2738E0524558F0A00B1A853 /* MiceDysfunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiceDysfunction.m; sourceTree = "<group>"; };
+		C2738E0724558F0A00B1A853 /* InhibNeedFactualBacteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InhibNeedFactualBacteria.h; sourceTree = "<group>"; };
+		C2738E0824558F0A00B1A853 /* InhibStaffEncourages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InhibStaffEncourages.h; sourceTree = "<group>"; };
+		C2738E0924558F0A00B1A853 /* InhibYearsComparedPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InhibYearsComparedPrevious.h; sourceTree = "<group>"; };
+		C2738E0A24558F0A00B1A853 /* InhibProteinSeasonTeaching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InhibProteinSeasonTeaching.m; sourceTree = "<group>"; };
+		C2738E0B24558F0A00B1A853 /* InhibStaffEncourages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InhibStaffEncourages.m; sourceTree = "<group>"; };
+		C2738E0C24558F0A00B1A853 /* InhibNeedFactualBacteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InhibNeedFactualBacteria.m; sourceTree = "<group>"; };
+		C2738E0D24558F0A00B1A853 /* InhibYearsComparedPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InhibYearsComparedPrevious.m; sourceTree = "<group>"; };
+		C2738E0E24558F0A00B1A853 /* InhibProteinSeasonTeaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InhibProteinSeasonTeaching.h; sourceTree = "<group>"; };
+		C2738E0F24558F0A00B1A853 /* AssistStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistStrategies.h; sourceTree = "<group>"; };
+		C2738E1024558F0A00B1A853 /* CoverOldEcosystems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverOldEcosystems.m; sourceTree = "<group>"; };
+		C2738E1124558F0A00B1A853 /* JudgesCellsStriving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JudgesCellsStriving.h; sourceTree = "<group>"; };
+		C2738E1324558F0A00B1A853 /* AmaziFurtherSpecialSupported.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmaziFurtherSpecialSupported.h; sourceTree = "<group>"; };
+		C2738E1424558F0B00B1A853 /* AmaziHighlightsAwarded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmaziHighlightsAwarded.h; sourceTree = "<group>"; };
+		C2738E1524558F0B00B1A853 /* AmaziFurtherSpecialSupported.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmaziFurtherSpecialSupported.m; sourceTree = "<group>"; };
+		C2738E1624558F0B00B1A853 /* AmaziHighlightsAwarded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmaziHighlightsAwarded.m; sourceTree = "<group>"; };
+		C2738E1724558F0B00B1A853 /* HandInfluencedFully.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandInfluencedFully.m; sourceTree = "<group>"; };
+		C2738E1924558F0B00B1A853 /* ReceiEncouragingTeachingBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiEncouragingTeachingBrain.h; sourceTree = "<group>"; };
+		C2738E1A24558F0B00B1A853 /* ReceiImageDependsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiImageDependsClass.h; sourceTree = "<group>"; };
+		C2738E1B24558F0B00B1A853 /* ReceiStreetFoundFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiStreetFoundFocus.h; sourceTree = "<group>"; };
+		C2738E1C24558F0B00B1A853 /* ReceiImageDependsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiImageDependsClass.m; sourceTree = "<group>"; };
+		C2738E1D24558F0B00B1A853 /* ReceiEncouragingTeachingBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiEncouragingTeachingBrain.m; sourceTree = "<group>"; };
+		C2738E1E24558F0B00B1A853 /* ReceiStreetFoundFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiStreetFoundFocus.m; sourceTree = "<group>"; };
+		C2738E2024558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjeDiscoverAwarenessSuitable.h; sourceTree = "<group>"; };
+		C2738E2124558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjeDetermineLecturerEcosystem.m; sourceTree = "<group>"; };
+		C2738E2224558F0B00B1A853 /* ProjeTechniquesSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjeTechniquesSimple.m; sourceTree = "<group>"; };
+		C2738E2324558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjeDiscoverAwarenessSuitable.m; sourceTree = "<group>"; };
+		C2738E2424558F0B00B1A853 /* ProjeTechniquesSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjeTechniquesSimple.h; sourceTree = "<group>"; };
+		C2738E2524558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjeDetermineLecturerEcosystem.h; sourceTree = "<group>"; };
+		C2738E2624558F0B00B1A853 /* EcologistsMuscleUnderpinned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcologistsMuscleUnderpinned.h; sourceTree = "<group>"; };
+		C2738E2724558F0B00B1A853 /* ExcitingEasternCapturing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcitingEasternCapturing.h; sourceTree = "<group>"; };
+		C2738E2824558F0B00B1A853 /* EmailJury.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailJury.h; sourceTree = "<group>"; };
+		C2738E2924558F0B00B1A853 /* DevelopCoatControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevelopCoatControl.m; sourceTree = "<group>"; };
+		C2738E2A24558F0B00B1A853 /* CloningSequencingRoadkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloningSequencingRoadkill.h; sourceTree = "<group>"; };
+		C2738E2B24558F0B00B1A853 /* FocusedSeriesAged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusedSeriesAged.h; sourceTree = "<group>"; };
+		C2738E2C24558F0B00B1A853 /* WhetherAnnual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhetherAnnual.m; sourceTree = "<group>"; };
+		C2738E2D24558F0B00B1A853 /* TalentedAwardedTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalentedAwardedTime.h; sourceTree = "<group>"; };
+		C2738E2E24558F0B00B1A853 /* SpeciesTechnology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeciesTechnology.m; sourceTree = "<group>"; };
+		C2738E2F24558F0B00B1A853 /* MedicineAssessingNominated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineAssessingNominated.h; sourceTree = "<group>"; };
+		C2738E3024558F0B00B1A853 /* InhibitCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InhibitCells.m; sourceTree = "<group>"; };
+		C2738E3124558F0B00B1A853 /* ResearchTotal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchTotal.h; sourceTree = "<group>"; };
+		C2738E3224558F0B00B1A853 /* StudentsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsState.h; sourceTree = "<group>"; };
+		C2738E3324558F0B00B1A853 /* StudentsRecently.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsRecently.h; sourceTree = "<group>"; };
+		C2738E3424558F0B00B1A853 /* DrivenIntroduced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrivenIntroduced.m; sourceTree = "<group>"; };
+		C2738E3524558F0B00B1A853 /* AnimalsFundingYears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalsFundingYears.h; sourceTree = "<group>"; };
+		C2738E3624558F0B00B1A853 /* DelicatelyLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelicatelyLink.m; sourceTree = "<group>"; };
+		C2738E3724558F0B00B1A853 /* EventBackyards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventBackyards.m; sourceTree = "<group>"; };
+		C2738E3824558F0B00B1A853 /* AuthorDisorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorDisorders.m; sourceTree = "<group>"; };
+		C2738E3924558F0B00B1A853 /* TimeBackgroundTeaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeBackgroundTeaching.h; sourceTree = "<group>"; };
+		C2738E3A24558F0B00B1A853 /* LecturerImmediate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LecturerImmediate.h; sourceTree = "<group>"; };
+		C2738E3B24558F0B00B1A853 /* SizePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizePhoto.h; sourceTree = "<group>"; };
+		C2738E3C24558F0B00B1A853 /* IdentifyAmazing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentifyAmazing.m; sourceTree = "<group>"; };
+		C2738E3E24558F0B00B1A853 /* BrainAuthorFixedtermNest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainAuthorFixedtermNest.h; sourceTree = "<group>"; };
+		C2738E3F24558F0B00B1A853 /* BrainAdultsMale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainAdultsMale.h; sourceTree = "<group>"; };
+		C2738E4024558F0B00B1A853 /* BrainOwnersInstructingProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainOwnersInstructingProvide.h; sourceTree = "<group>"; };
+		C2738E4124558F0B00B1A853 /* BrainAuthorFixedtermNest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrainAuthorFixedtermNest.m; sourceTree = "<group>"; };
+		C2738E4224558F0B00B1A853 /* BrainAdultsMale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrainAdultsMale.m; sourceTree = "<group>"; };
+		C2738E4324558F0B00B1A853 /* BrainOwnersInstructingProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrainOwnersInstructingProvide.m; sourceTree = "<group>"; };
+		C2738E4424558F0B00B1A853 /* FantasticPoorLearned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasticPoorLearned.h; sourceTree = "<group>"; };
+		C2738E4524558F0B00B1A853 /* CompletedFeel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedFeel.h; sourceTree = "<group>"; };
+		C2738E4724558F0B00B1A853 /* RunnePhotographyResearchersSnow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunnePhotographyResearchersSnow.m; sourceTree = "<group>"; };
+		C2738E4824558F0B00B1A853 /* RunnePhotographyResearchersSnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunnePhotographyResearchersSnow.h; sourceTree = "<group>"; };
+		C2738E4924558F0B00B1A853 /* SupportedResearchConstituent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportedResearchConstituent.h; sourceTree = "<group>"; };
+		C2738E4A24558F0B00B1A853 /* JournalWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalWork.h; sourceTree = "<group>"; };
+		C2738E4B24558F0B00B1A853 /* FeatureEpisode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureEpisode.h; sourceTree = "<group>"; };
+		C2738E4D24558F0B00B1A853 /* RefinRelatingDiseaseHope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefinRelatingDiseaseHope.h; sourceTree = "<group>"; };
+		C2738E4E24558F0B00B1A853 /* RefinChildhoodMaternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefinChildhoodMaternal.h; sourceTree = "<group>"; };
+		C2738E4F24558F0B00B1A853 /* RefinRelatingDiseaseHope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefinRelatingDiseaseHope.m; sourceTree = "<group>"; };
+		C2738E5024558F0B00B1A853 /* RefinChildhoodMaternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefinChildhoodMaternal.m; sourceTree = "<group>"; };
+		C2738E5124558F0B00B1A853 /* IndustryFatPictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndustryFatPictures.h; sourceTree = "<group>"; };
+		C2738E5224558F0B00B1A853 /* StudentTeams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTeams.h; sourceTree = "<group>"; };
+		C2738E5324558F0B00B1A853 /* DieAffectingRegions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieAffectingRegions.m; sourceTree = "<group>"; };
+		C2738E5424558F0B00B1A853 /* TeamGroupResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamGroupResult.m; sourceTree = "<group>"; };
+		C2738E5524558F0B00B1A853 /* TeamOwners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamOwners.m; sourceTree = "<group>"; };
+		C2738E5624558F0B00B1A853 /* FantasticSupported.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasticSupported.m; sourceTree = "<group>"; };
+		C2738E5824558F0B00B1A853 /* BlockRangingTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockRangingTeam.m; sourceTree = "<group>"; };
+		C2738E5924558F0B00B1A853 /* BlockMaternalMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockMaternalMemory.h; sourceTree = "<group>"; };
+		C2738E5A24558F0B00B1A853 /* BlockDevicesInfectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockDevicesInfectionCell.h; sourceTree = "<group>"; };
+		C2738E5B24558F0B00B1A853 /* BlockAspiringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAspiringTests.h; sourceTree = "<group>"; };
+		C2738E5C24558F0B00B1A853 /* BlockDevicesInfectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDevicesInfectionCell.m; sourceTree = "<group>"; };
+		C2738E5D24558F0B00B1A853 /* BlockMaternalMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockMaternalMemory.m; sourceTree = "<group>"; };
+		C2738E5E24558F0B00B1A853 /* BlockRangingTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockRangingTeam.h; sourceTree = "<group>"; };
+		C2738E5F24558F0B00B1A853 /* BlockAspiringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAspiringTests.m; sourceTree = "<group>"; };
+		C2738E6124558F0B00B1A853 /* ExcepAcidsAdversity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcepAcidsAdversity.m; sourceTree = "<group>"; };
+		C2738E6224558F0B00B1A853 /* ExcepStressorsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcepStressorsGroup.m; sourceTree = "<group>"; };
+		C2738E6324558F0B00B1A853 /* ExcepAwarenessConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcepAwarenessConstant.m; sourceTree = "<group>"; };
+		C2738E6424558F0B00B1A853 /* ExcepAcidsAdversity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcepAcidsAdversity.h; sourceTree = "<group>"; };
+		C2738E6524558F0B00B1A853 /* ExcepAwarenessConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcepAwarenessConstant.h; sourceTree = "<group>"; };
+		C2738E6624558F0B00B1A853 /* ExcepStressorsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcepStressorsGroup.h; sourceTree = "<group>"; };
+		C2738E6724558F0B00B1A853 /* PatientsDisseminate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsDisseminate.m; sourceTree = "<group>"; };
+		C2738E6824558F0B00B1A853 /* GlobalEnvelopeStudying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalEnvelopeStudying.m; sourceTree = "<group>"; };
+		C2738E6924558F0B00B1A853 /* AssistStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistStrategies.m; sourceTree = "<group>"; };
+		C2738E6A24558F0B00B1A853 /* CoverOldEcosystems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverOldEcosystems.h; sourceTree = "<group>"; };
+		C2738E6B24558F0B00B1A853 /* JudgesCellsStriving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JudgesCellsStriving.m; sourceTree = "<group>"; };
+		C2738E6C24558F0B00B1A853 /* GrowingConflict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingConflict.m; sourceTree = "<group>"; };
+		C2738E6D24558F0B00B1A853 /* MiceDysfunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiceDysfunction.h; sourceTree = "<group>"; };
+		C2738E6E24558F0B00B1A853 /* WitnessedHabitatsHumans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitnessedHabitatsHumans.h; sourceTree = "<group>"; };
+		C2738E6F24558F0B00B1A853 /* EstablishCriteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstablishCriteria.h; sourceTree = "<group>"; };
+		C2738E7124558F0B00B1A853 /* MinimTrialsKnown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimTrialsKnown.m; sourceTree = "<group>"; };
+		C2738E7224558F0B00B1A853 /* MinimCellUnexpectedWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimCellUnexpectedWorking.m; sourceTree = "<group>"; };
+		C2738E7324558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimTreatmentsDiseaseMemory.h; sourceTree = "<group>"; };
+		C2738E7424558F0B00B1A853 /* MinimCellUnexpectedWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimCellUnexpectedWorking.h; sourceTree = "<group>"; };
+		C2738E7524558F0B00B1A853 /* MinimTrialsKnown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimTrialsKnown.h; sourceTree = "<group>"; };
+		C2738E7624558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimTreatmentsDiseaseMemory.m; sourceTree = "<group>"; };
+		C2738E7724558F0B00B1A853 /* ComplexKindDebut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexKindDebut.m; sourceTree = "<group>"; };
+		C2738E7824558F0B00B1A853 /* FoundEvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundEvolution.h; sourceTree = "<group>"; };
+		C2738E7924558F0B00B1A853 /* PartDiscussionAntibiotics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartDiscussionAntibiotics.m; sourceTree = "<group>"; };
+		C2738E7A24558F0B00B1A853 /* PeakedBehaviouralInvitro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakedBehaviouralInvitro.m; sourceTree = "<group>"; };
+		C2738E7C24558F0B00B1A853 /* EngagLanguageDroplets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngagLanguageDroplets.h; sourceTree = "<group>"; };
+		C2738E7D24558F0B00B1A853 /* EngagLanguageDroplets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngagLanguageDroplets.m; sourceTree = "<group>"; };
+		C2738E7E24558F0B00B1A853 /* YoungLearnReally.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoungLearnReally.m; sourceTree = "<group>"; };
+		C2738E7F24558F0B00B1A853 /* ReallyIsolated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReallyIsolated.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30222FA7241F13B0002C2954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30222FA1241F13B0002C2954 = {
+			isa = PBXGroup;
+			children = (
+				30222FAC241F13B0002C2954 /* SDKMixTools */,
+				30222FCB241F13B1002C2954 /* SDKMixToolsTests */,
+				30222FD6241F13B1002C2954 /* SDKMixToolsUITests */,
+				30222FAB241F13B0002C2954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30222FAB241F13B0002C2954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30222FAA241F13B0002C2954 /* SDKMixTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30222FAC241F13B0002C2954 /* SDKMixTools */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DA224558F0A00B1A853 /* classes */,
+				30222FE5241F14A0002C2954 /* PrefixTool */,
+				30222FAD241F13B0002C2954 /* AppDelegate.h */,
+				30222FAE241F13B0002C2954 /* AppDelegate.m */,
+				30222FB0241F13B0002C2954 /* SceneDelegate.h */,
+				30222FB1241F13B0002C2954 /* SceneDelegate.m */,
+				30222FB3241F13B0002C2954 /* FirstViewController.h */,
+				30222FB4241F13B0002C2954 /* FirstViewController.m */,
+				30222FB6241F13B0002C2954 /* SecondViewController.h */,
+				30222FB7241F13B0002C2954 /* SecondViewController.m */,
+				301001492423258F00A52D4A /* SDKMixTools-prefix.pch */,
+				30222FB9241F13B0002C2954 /* Main.storyboard */,
+				30222FBC241F13B1002C2954 /* Assets.xcassets */,
+				30222FBE241F13B1002C2954 /* LaunchScreen.storyboard */,
+				30222FC2241F13B1002C2954 /* main.m */,
+				30719B67244075DE00E52C5B /* Info.plist */,
+			);
+			path = SDKMixTools;
+			sourceTree = "<group>";
+		};
+		30222FCB241F13B1002C2954 /* SDKMixToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				30222FCC241F13B1002C2954 /* CXSDKPrefixDemoTests.m */,
+				30222FCE241F13B1002C2954 /* Info.plist */,
+			);
+			path = SDKMixToolsTests;
+			sourceTree = "<group>";
+		};
+		30222FD6241F13B1002C2954 /* SDKMixToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30222FD7241F13B1002C2954 /* CXSDKPrefixDemoUITests.m */,
+				30222FD9241F13B1002C2954 /* Info.plist */,
+			);
+			path = SDKMixToolsUITests;
+			sourceTree = "<group>";
+		};
+		30222FE5241F14A0002C2954 /* PrefixTool */ = {
+			isa = PBXGroup;
+			children = (
+				3046FDC82443FDBD003CE4D6 /* Readme.md */,
+				304091232436E41400B10D69 /* MetaClasses */,
+				304091222436E3AF00B10D69 /* Tools */,
+				304091132435C69300B10D69 /* Categories */,
+				30222FE9241F1D69002C2954 /* Models */,
+				30222FE6241F14DA002C2954 /* CXNethodsMixtueTool.h */,
+				3040911D2436D32F00B10D69 /* CXMethodsPrefixTool.m */,
+				3038D85324206C1E0019F114 /* CXMethodGenerator.h */,
+				3038D85424206C1E0019F114 /* CXMethodGenerator.m */,
+				301BCD7B24285F87001D19DD /* CXConfuseConsts.h */,
+				30B12ED6242B331000F567F6 /* CXWordsConsts.h */,
+			);
+			path = PrefixTool;
+			sourceTree = "<group>";
+		};
+		30222FE9241F1D69002C2954 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3010014A24235A9500A52D4A /* CXObjectEntity.h */,
+				3010014B24235A9500A52D4A /* CXObjectEntity.m */,
+				3010014D24236FBF00A52D4A /* CXParamEntity.h */,
+				3010014E24236FBF00A52D4A /* CXParamEntity.m */,
+				30B12ED3242B0A5100F567F6 /* CXMethodEntity.h */,
+				30B12ED4242B0A5100F567F6 /* CXMethodEntity.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		304091132435C69300B10D69 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				304091142435C6DA00B10D69 /* NSArray+CXMixture.h */,
+				304091152435C6DA00B10D69 /* NSArray+CXMixture.m */,
+				304091172435CE3A00B10D69 /* NSString+CXMixture.h */,
+				304091182435CE3A00B10D69 /* NSString+CXMixture.m */,
+				3040911A24360A5300B10D69 /* NSMutableString+CXMixture.h */,
+				3040911B24360A5300B10D69 /* NSMutableString+CXMixture.m */,
+				3040912D2436E54A00B10D69 /* NSObject+CXMetaInit.h */,
+				3040912E2436E54A00B10D69 /* NSObject+CXMetaInit.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		304091222436E3AF00B10D69 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				30710B0F2434BBE100423D6E /* CXMethodMetaDataHelper.h */,
+				30710B102434BBE100423D6E /* CXMethodMetaDataHelper.m */,
+				3046FDC92444658D003CE4D6 /* CXPropertyHelper.h */,
+				3046FDCA2444658D003CE4D6 /* CXPropertyHelper.m */,
+				3040911F2436D3D800B10D69 /* CXMethodsListHelper.h */,
+				304091202436D3D800B10D69 /* CXMethodsListHelper.m */,
+				301001502423777800A52D4A /* CXRegularExpressionHelper.h */,
+				301001512423777800A52D4A /* CXRegularExpressionHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		304091232436E41400B10D69 /* MetaClasses */ = {
+			isa = PBXGroup;
+			children = (
+				304091242436E43800B10D69 /* CXMetaUIView.h */,
+				304091252436E43800B10D69 /* CXMetaUIView.m */,
+				3040913F2436E86C00B10D69 /* CXMetaUITableView.h */,
+				304091402436E86C00B10D69 /* CXMetaUITableView.m */,
+				30409151243711C100B10D69 /* CXMetaNSData.h */,
+				30409152243711C100B10D69 /* CXMetaNSData.m */,
+				30409154243711F000B10D69 /* CXMetaUIButton.h */,
+				30409155243711F000B10D69 /* CXMetaUIButton.m */,
+				304091572437120A00B10D69 /* CXMetaUIImageView.h */,
+				304091582437120A00B10D69 /* CXMetaUIImageView.m */,
+				3040915A2437121C00B10D69 /* CXMetaUILabel.h */,
+				3040915B2437121C00B10D69 /* CXMetaUILabel.m */,
+				304091482436E8F000B10D69 /* CXMetaNSArray.h */,
+				304091492436E8F000B10D69 /* CXMetaNSArray.m */,
+				3040915D2437175F00B10D69 /* CXMetaNSString.h */,
+				3040915E2437175F00B10D69 /* CXMetaNSString.m */,
+				304091602437179C00B10D69 /* CXMetaUITextField.h */,
+				304091612437179C00B10D69 /* CXMetaUITextField.m */,
+				3040914E24370F9900B10D69 /* CXMetaCommon.h */,
+				3040914F24370F9900B10D69 /* CXMetaCommon.m */,
+				30409163243718AF00B10D69 /* CXMetaBaseEntity.h */,
+				30409164243718AF00B10D69 /* CXMetaBaseEntity.m */,
+				3040916624371D3700B10D69 /* CXMetaData.h */,
+			);
+			path = MetaClasses;
+			sourceTree = "<group>";
+		};
+		C2738DA224558F0A00B1A853 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DA324558F0A00B1A853 /* research */,
+				C2738DA824558F0A00B1A853 /* SpeciesTechnology.h */,
+				C2738DA924558F0A00B1A853 /* WhetherAnnual.h */,
+				C2738DAA24558F0A00B1A853 /* TalentedAwardedTime.m */,
+				C2738DAB24558F0A00B1A853 /* FocusedSeriesAged.m */,
+				C2738DAC24558F0A00B1A853 /* CloningSequencingRoadkill.m */,
+				C2738DAD24558F0A00B1A853 /* EmailJury.m */,
+				C2738DAE24558F0A00B1A853 /* DevelopCoatControl.h */,
+				C2738DAF24558F0A00B1A853 /* parasite */,
+				C2738DB624558F0A00B1A853 /* ExcitingEasternCapturing.m */,
+				C2738DB724558F0A00B1A853 /* EcologistsMuscleUnderpinned.m */,
+				C2738DB824558F0A00B1A853 /* HandInfluencedFully.h */,
+				C2738DB924558F0A00B1A853 /* include.md */,
+				C2738DBA24558F0A00B1A853 /* IdentifyAmazing.h */,
+				C2738DBB24558F0A00B1A853 /* FantasticPoorLearned.m */,
+				C2738DBC24558F0A00B1A853 /* SizePhoto.m */,
+				C2738DBD24558F0A00B1A853 /* LecturerImmediate.m */,
+				C2738DBE24558F0A00B1A853 /* TimeBackgroundTeaching.m */,
+				C2738DBF24558F0A00B1A853 /* EventBackyards.h */,
+				C2738DC024558F0A00B1A853 /* AuthorDisorders.h */,
+				C2738DC124558F0A00B1A853 /* DelicatelyLink.h */,
+				C2738DC224558F0A00B1A853 /* AnimalsFundingYears.m */,
+				C2738DC324558F0A00B1A853 /* DrivenIntroduced.h */,
+				C2738DC424558F0A00B1A853 /* StudentsRecently.m */,
+				C2738DC524558F0A00B1A853 /* StudentsState.m */,
+				C2738DC624558F0A00B1A853 /* ResearchTotal.m */,
+				C2738DC724558F0A00B1A853 /* InhibitCells.h */,
+				C2738DC824558F0A00B1A853 /* MedicineAssessingNominated.m */,
+				C2738DC924558F0A00B1A853 /* towards */,
+				C2738DCA24558F0A00B1A853 /* GlobalEnvelopeStudying.h */,
+				C2738DCB24558F0A00B1A853 /* PatientsDisseminate.h */,
+				C2738DCC24558F0A00B1A853 /* reduce */,
+				C2738DD124558F0A00B1A853 /* retreat */,
+				C2738DDA24558F0A00B1A853 /* FantasticSupported.h */,
+				C2738DDB24558F0A00B1A853 /* TeamOwners.h */,
+				C2738DDC24558F0A00B1A853 /* TeamGroupResult.h */,
+				C2738DDD24558F0A00B1A853 /* training */,
+				C2738DE424558F0A00B1A853 /* StudentTeams.m */,
+				C2738DE524558F0A00B1A853 /* DieAffectingRegions.h */,
+				C2738DE624558F0A00B1A853 /* health */,
+				C2738DED24558F0A00B1A853 /* IndustryFatPictures.m */,
+				C2738DEE24558F0A00B1A853 /* innovative */,
+				C2738DF324558F0A00B1A853 /* JournalWork.m */,
+				C2738DF424558F0A00B1A853 /* SupportedResearchConstituent.m */,
+				C2738DF524558F0A00B1A853 /* CompletedFeel.m */,
+				C2738DF624558F0A00B1A853 /* FeatureEpisode.m */,
+				C2738DF724558F0A00B1A853 /* science */,
+				C2738DFC24558F0A00B1A853 /* YoungLearnReally.h */,
+				C2738DFD24558F0A00B1A853 /* ReallyIsolated.h */,
+				C2738DFE24558F0A00B1A853 /* PeakedBehaviouralInvitro.h */,
+				C2738DFF24558F0A00B1A853 /* ComplexKindDebut.h */,
+				C2738E0024558F0A00B1A853 /* PartDiscussionAntibiotics.h */,
+				C2738E0124558F0A00B1A853 /* FoundEvolution.m */,
+				C2738E0224558F0A00B1A853 /* EstablishCriteria.m */,
+				C2738E0324558F0A00B1A853 /* WitnessedHabitatsHumans.m */,
+				C2738E0424558F0A00B1A853 /* GrowingConflict.h */,
+				C2738E0524558F0A00B1A853 /* MiceDysfunction.m */,
+				C2738E0624558F0A00B1A853 /* inhibiting */,
+				C2738E0F24558F0A00B1A853 /* AssistStrategies.h */,
+				C2738E1024558F0A00B1A853 /* CoverOldEcosystems.m */,
+				C2738E1124558F0A00B1A853 /* JudgesCellsStriving.h */,
+				C2738E1224558F0A00B1A853 /* amazing */,
+				C2738E1724558F0B00B1A853 /* HandInfluencedFully.m */,
+				C2738E1824558F0B00B1A853 /* receive */,
+				C2738E1F24558F0B00B1A853 /* project */,
+				C2738E2624558F0B00B1A853 /* EcologistsMuscleUnderpinned.h */,
+				C2738E2724558F0B00B1A853 /* ExcitingEasternCapturing.h */,
+				C2738E2824558F0B00B1A853 /* EmailJury.h */,
+				C2738E2924558F0B00B1A853 /* DevelopCoatControl.m */,
+				C2738E2A24558F0B00B1A853 /* CloningSequencingRoadkill.h */,
+				C2738E2B24558F0B00B1A853 /* FocusedSeriesAged.h */,
+				C2738E2C24558F0B00B1A853 /* WhetherAnnual.m */,
+				C2738E2D24558F0B00B1A853 /* TalentedAwardedTime.h */,
+				C2738E2E24558F0B00B1A853 /* SpeciesTechnology.m */,
+				C2738E2F24558F0B00B1A853 /* MedicineAssessingNominated.h */,
+				C2738E3024558F0B00B1A853 /* InhibitCells.m */,
+				C2738E3124558F0B00B1A853 /* ResearchTotal.h */,
+				C2738E3224558F0B00B1A853 /* StudentsState.h */,
+				C2738E3324558F0B00B1A853 /* StudentsRecently.h */,
+				C2738E3424558F0B00B1A853 /* DrivenIntroduced.m */,
+				C2738E3524558F0B00B1A853 /* AnimalsFundingYears.h */,
+				C2738E3624558F0B00B1A853 /* DelicatelyLink.m */,
+				C2738E3724558F0B00B1A853 /* EventBackyards.m */,
+				C2738E3824558F0B00B1A853 /* AuthorDisorders.m */,
+				C2738E3924558F0B00B1A853 /* TimeBackgroundTeaching.h */,
+				C2738E3A24558F0B00B1A853 /* LecturerImmediate.h */,
+				C2738E3B24558F0B00B1A853 /* SizePhoto.h */,
+				C2738E3C24558F0B00B1A853 /* IdentifyAmazing.m */,
+				C2738E3D24558F0B00B1A853 /* brain */,
+				C2738E4424558F0B00B1A853 /* FantasticPoorLearned.h */,
+				C2738E4524558F0B00B1A853 /* CompletedFeel.h */,
+				C2738E4624558F0B00B1A853 /* runners */,
+				C2738E4924558F0B00B1A853 /* SupportedResearchConstituent.h */,
+				C2738E4A24558F0B00B1A853 /* JournalWork.h */,
+				C2738E4B24558F0B00B1A853 /* FeatureEpisode.h */,
+				C2738E4C24558F0B00B1A853 /* refinery */,
+				C2738E5124558F0B00B1A853 /* IndustryFatPictures.h */,
+				C2738E5224558F0B00B1A853 /* StudentTeams.h */,
+				C2738E5324558F0B00B1A853 /* DieAffectingRegions.m */,
+				C2738E5424558F0B00B1A853 /* TeamGroupResult.m */,
+				C2738E5524558F0B00B1A853 /* TeamOwners.m */,
+				C2738E5624558F0B00B1A853 /* FantasticSupported.m */,
+				C2738E5724558F0B00B1A853 /* blocked */,
+				C2738E6024558F0B00B1A853 /* exceptional */,
+				C2738E6724558F0B00B1A853 /* PatientsDisseminate.m */,
+				C2738E6824558F0B00B1A853 /* GlobalEnvelopeStudying.m */,
+				C2738E6924558F0B00B1A853 /* AssistStrategies.m */,
+				C2738E6A24558F0B00B1A853 /* CoverOldEcosystems.h */,
+				C2738E6B24558F0B00B1A853 /* JudgesCellsStriving.m */,
+				C2738E6C24558F0B00B1A853 /* GrowingConflict.m */,
+				C2738E6D24558F0B00B1A853 /* MiceDysfunction.h */,
+				C2738E6E24558F0B00B1A853 /* WitnessedHabitatsHumans.h */,
+				C2738E6F24558F0B00B1A853 /* EstablishCriteria.h */,
+				C2738E7024558F0B00B1A853 /* minimise */,
+				C2738E7724558F0B00B1A853 /* ComplexKindDebut.m */,
+				C2738E7824558F0B00B1A853 /* FoundEvolution.h */,
+				C2738E7924558F0B00B1A853 /* PartDiscussionAntibiotics.m */,
+				C2738E7A24558F0B00B1A853 /* PeakedBehaviouralInvitro.m */,
+				C2738E7B24558F0B00B1A853 /* engaging */,
+				C2738E7E24558F0B00B1A853 /* YoungLearnReally.m */,
+				C2738E7F24558F0B00B1A853 /* ReallyIsolated.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		C2738DA324558F0A00B1A853 /* research */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DA424558F0A00B1A853 /* ReseaWorldTreatment.m */,
+				C2738DA524558F0A00B1A853 /* ReseaLivesProgression.m */,
+				C2738DA624558F0A00B1A853 /* ReseaWorldTreatment.h */,
+				C2738DA724558F0A00B1A853 /* ReseaLivesProgression.h */,
+			);
+			path = research;
+			sourceTree = "<group>";
+		};
+		C2738DAF24558F0A00B1A853 /* parasite */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DB024558F0A00B1A853 /* ParasStyleGrowthSoft.m */,
+				C2738DB124558F0A00B1A853 /* ParasHealthyYear.m */,
+				C2738DB224558F0A00B1A853 /* ParasMultipleRoleLearning.m */,
+				C2738DB324558F0A00B1A853 /* ParasHealthyYear.h */,
+				C2738DB424558F0A00B1A853 /* ParasStyleGrowthSoft.h */,
+				C2738DB524558F0A00B1A853 /* ParasMultipleRoleLearning.h */,
+			);
+			path = parasite;
+			sourceTree = "<group>";
+		};
+		C2738DC924558F0A00B1A853 /* towards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = towards;
+			sourceTree = "<group>";
+		};
+		C2738DCC24558F0A00B1A853 /* reduce */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DCD24558F0A00B1A853 /* ReducImmuneFatty.m */,
+				C2738DCE24558F0A00B1A853 /* ReducKnowledgeCourting.m */,
+				C2738DCF24558F0A00B1A853 /* ReducImmuneFatty.h */,
+				C2738DD024558F0A00B1A853 /* ReducKnowledgeCourting.h */,
+			);
+			path = reduce;
+			sourceTree = "<group>";
+		};
+		C2738DD124558F0A00B1A853 /* retreat */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DD224558F0A00B1A853 /* RetreTrackedConclusionsPursue.h */,
+				C2738DD324558F0A00B1A853 /* RetreLeadPossibleEverything.h */,
+				C2738DD424558F0A00B1A853 /* RetreBitData.h */,
+				C2738DD524558F0A00B1A853 /* RetreBiggestGrowSeeking.h */,
+				C2738DD624558F0A00B1A853 /* RetreTrackedConclusionsPursue.m */,
+				C2738DD724558F0A00B1A853 /* RetreBitData.m */,
+				C2738DD824558F0A00B1A853 /* RetreLeadPossibleEverything.m */,
+				C2738DD924558F0A00B1A853 /* RetreBiggestGrowSeeking.m */,
+			);
+			path = retreat;
+			sourceTree = "<group>";
+		};
+		C2738DDD24558F0A00B1A853 /* training */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DDE24558F0A00B1A853 /* TrainInnovationsExample.m */,
+				C2738DDF24558F0A00B1A853 /* TrainRaceMemories.m */,
+				C2738DE024558F0A00B1A853 /* TrainCellLecturers.h */,
+				C2738DE124558F0A00B1A853 /* TrainInnovationsExample.h */,
+				C2738DE224558F0A00B1A853 /* TrainRaceMemories.h */,
+				C2738DE324558F0A00B1A853 /* TrainCellLecturers.m */,
+			);
+			path = training;
+			sourceTree = "<group>";
+		};
+		C2738DE624558F0A00B1A853 /* health */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DE724558F0A00B1A853 /* HealtGrowingInflatable.h */,
+				C2738DE824558F0A00B1A853 /* HealtCopeTitled.m */,
+				C2738DE924558F0A00B1A853 /* HealtHomeRefinery.m */,
+				C2738DEA24558F0A00B1A853 /* HealtCopeTitled.h */,
+				C2738DEB24558F0A00B1A853 /* HealtGrowingInflatable.m */,
+				C2738DEC24558F0A00B1A853 /* HealtHomeRefinery.h */,
+			);
+			path = health;
+			sourceTree = "<group>";
+		};
+		C2738DEE24558F0A00B1A853 /* innovative */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DEF24558F0A00B1A853 /* InnovDiseaseDiseaseOverall.h */,
+				C2738DF024558F0A00B1A853 /* InnovWheatearsProvidingNone.m */,
+				C2738DF124558F0A00B1A853 /* InnovDiseaseDiseaseOverall.m */,
+				C2738DF224558F0A00B1A853 /* InnovWheatearsProvidingNone.h */,
+			);
+			path = innovative;
+			sourceTree = "<group>";
+		};
+		C2738DF724558F0A00B1A853 /* science */ = {
+			isa = PBXGroup;
+			children = (
+				C2738DF824558F0A00B1A853 /* ScienDivisionBroad.h */,
+				C2738DF924558F0A00B1A853 /* ScienBodysAvailableDonations.h */,
+				C2738DFA24558F0A00B1A853 /* ScienDivisionBroad.m */,
+				C2738DFB24558F0A00B1A853 /* ScienBodysAvailableDonations.m */,
+			);
+			path = science;
+			sourceTree = "<group>";
+		};
+		C2738E0624558F0A00B1A853 /* inhibiting */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E0724558F0A00B1A853 /* InhibNeedFactualBacteria.h */,
+				C2738E0824558F0A00B1A853 /* InhibStaffEncourages.h */,
+				C2738E0924558F0A00B1A853 /* InhibYearsComparedPrevious.h */,
+				C2738E0A24558F0A00B1A853 /* InhibProteinSeasonTeaching.m */,
+				C2738E0B24558F0A00B1A853 /* InhibStaffEncourages.m */,
+				C2738E0C24558F0A00B1A853 /* InhibNeedFactualBacteria.m */,
+				C2738E0D24558F0A00B1A853 /* InhibYearsComparedPrevious.m */,
+				C2738E0E24558F0A00B1A853 /* InhibProteinSeasonTeaching.h */,
+			);
+			path = inhibiting;
+			sourceTree = "<group>";
+		};
+		C2738E1224558F0A00B1A853 /* amazing */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E1324558F0A00B1A853 /* AmaziFurtherSpecialSupported.h */,
+				C2738E1424558F0B00B1A853 /* AmaziHighlightsAwarded.h */,
+				C2738E1524558F0B00B1A853 /* AmaziFurtherSpecialSupported.m */,
+				C2738E1624558F0B00B1A853 /* AmaziHighlightsAwarded.m */,
+			);
+			path = amazing;
+			sourceTree = "<group>";
+		};
+		C2738E1824558F0B00B1A853 /* receive */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E1924558F0B00B1A853 /* ReceiEncouragingTeachingBrain.h */,
+				C2738E1A24558F0B00B1A853 /* ReceiImageDependsClass.h */,
+				C2738E1B24558F0B00B1A853 /* ReceiStreetFoundFocus.h */,
+				C2738E1C24558F0B00B1A853 /* ReceiImageDependsClass.m */,
+				C2738E1D24558F0B00B1A853 /* ReceiEncouragingTeachingBrain.m */,
+				C2738E1E24558F0B00B1A853 /* ReceiStreetFoundFocus.m */,
+			);
+			path = receive;
+			sourceTree = "<group>";
+		};
+		C2738E1F24558F0B00B1A853 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E2024558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.h */,
+				C2738E2124558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.m */,
+				C2738E2224558F0B00B1A853 /* ProjeTechniquesSimple.m */,
+				C2738E2324558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.m */,
+				C2738E2424558F0B00B1A853 /* ProjeTechniquesSimple.h */,
+				C2738E2524558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.h */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
+		C2738E3D24558F0B00B1A853 /* brain */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E3E24558F0B00B1A853 /* BrainAuthorFixedtermNest.h */,
+				C2738E3F24558F0B00B1A853 /* BrainAdultsMale.h */,
+				C2738E4024558F0B00B1A853 /* BrainOwnersInstructingProvide.h */,
+				C2738E4124558F0B00B1A853 /* BrainAuthorFixedtermNest.m */,
+				C2738E4224558F0B00B1A853 /* BrainAdultsMale.m */,
+				C2738E4324558F0B00B1A853 /* BrainOwnersInstructingProvide.m */,
+			);
+			path = brain;
+			sourceTree = "<group>";
+		};
+		C2738E4624558F0B00B1A853 /* runners */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E4724558F0B00B1A853 /* RunnePhotographyResearchersSnow.m */,
+				C2738E4824558F0B00B1A853 /* RunnePhotographyResearchersSnow.h */,
+			);
+			path = runners;
+			sourceTree = "<group>";
+		};
+		C2738E4C24558F0B00B1A853 /* refinery */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E4D24558F0B00B1A853 /* RefinRelatingDiseaseHope.h */,
+				C2738E4E24558F0B00B1A853 /* RefinChildhoodMaternal.h */,
+				C2738E4F24558F0B00B1A853 /* RefinRelatingDiseaseHope.m */,
+				C2738E5024558F0B00B1A853 /* RefinChildhoodMaternal.m */,
+			);
+			path = refinery;
+			sourceTree = "<group>";
+		};
+		C2738E5724558F0B00B1A853 /* blocked */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E5824558F0B00B1A853 /* BlockRangingTeam.m */,
+				C2738E5924558F0B00B1A853 /* BlockMaternalMemory.h */,
+				C2738E5A24558F0B00B1A853 /* BlockDevicesInfectionCell.h */,
+				C2738E5B24558F0B00B1A853 /* BlockAspiringTests.h */,
+				C2738E5C24558F0B00B1A853 /* BlockDevicesInfectionCell.m */,
+				C2738E5D24558F0B00B1A853 /* BlockMaternalMemory.m */,
+				C2738E5E24558F0B00B1A853 /* BlockRangingTeam.h */,
+				C2738E5F24558F0B00B1A853 /* BlockAspiringTests.m */,
+			);
+			path = blocked;
+			sourceTree = "<group>";
+		};
+		C2738E6024558F0B00B1A853 /* exceptional */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E6124558F0B00B1A853 /* ExcepAcidsAdversity.m */,
+				C2738E6224558F0B00B1A853 /* ExcepStressorsGroup.m */,
+				C2738E6324558F0B00B1A853 /* ExcepAwarenessConstant.m */,
+				C2738E6424558F0B00B1A853 /* ExcepAcidsAdversity.h */,
+				C2738E6524558F0B00B1A853 /* ExcepAwarenessConstant.h */,
+				C2738E6624558F0B00B1A853 /* ExcepStressorsGroup.h */,
+			);
+			path = exceptional;
+			sourceTree = "<group>";
+		};
+		C2738E7024558F0B00B1A853 /* minimise */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E7124558F0B00B1A853 /* MinimTrialsKnown.m */,
+				C2738E7224558F0B00B1A853 /* MinimCellUnexpectedWorking.m */,
+				C2738E7324558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.h */,
+				C2738E7424558F0B00B1A853 /* MinimCellUnexpectedWorking.h */,
+				C2738E7524558F0B00B1A853 /* MinimTrialsKnown.h */,
+				C2738E7624558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.m */,
+			);
+			path = minimise;
+			sourceTree = "<group>";
+		};
+		C2738E7B24558F0B00B1A853 /* engaging */ = {
+			isa = PBXGroup;
+			children = (
+				C2738E7C24558F0B00B1A853 /* EngagLanguageDroplets.h */,
+				C2738E7D24558F0B00B1A853 /* EngagLanguageDroplets.m */,
+			);
+			path = engaging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30222FA9241F13B0002C2954 /* SDKMixTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30222FDC241F13B1002C2954 /* Build configuration list for PBXNativeTarget "SDKMixTools" */;
+			buildPhases = (
+				30222FA6241F13B0002C2954 /* Sources */,
+				30222FA7241F13B0002C2954 /* Frameworks */,
+				30222FA8241F13B0002C2954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKMixTools;
+			productName = CXSDKPrefixDemo;
+			productReference = 30222FAA241F13B0002C2954 /* SDKMixTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30222FA2241F13B0002C2954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CX;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = chr;
+				TargetAttributes = {
+					30222FA9241F13B0002C2954 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30222FA5241F13B0002C2954 /* Build configuration list for PBXProject "SDKMixTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30222FA1241F13B0002C2954;
+			productRefGroup = 30222FAB241F13B0002C2954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30222FA9241F13B0002C2954 /* SDKMixTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30222FA8241F13B0002C2954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30222FC0241F13B1002C2954 /* LaunchScreen.storyboard in Resources */,
+				C2738E8B24558F0B00B1A853 /* include.md in Resources */,
+				30222FBD241F13B1002C2954 /* Assets.xcassets in Resources */,
+				30222FBB241F13B0002C2954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30222FA6241F13B0002C2954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2738EE124558F0B00B1A853 /* PeakedBehaviouralInvitro.m in Sources */,
+				C2738EB024558F0B00B1A853 /* InhibStaffEncourages.m in Sources */,
+				30710B112434BBE100423D6E /* CXMethodMetaDataHelper.m in Sources */,
+				30409153243711C100B10D69 /* CXMetaNSData.m in Sources */,
+				3040912F2436E54A00B10D69 /* NSObject+CXMetaInit.m in Sources */,
+				30222FC3241F13B1002C2954 /* main.m in Sources */,
+				C2738EBB24558F0B00B1A853 /* ProjeTechniquesSimple.m in Sources */,
+				C2738EBF24558F0B00B1A853 /* SpeciesTechnology.m in Sources */,
+				304091262436E43800B10D69 /* CXMetaUIView.m in Sources */,
+				C2738EA224558F0B00B1A853 /* IndustryFatPictures.m in Sources */,
+				C2738ED124558F0B00B1A853 /* BlockDevicesInfectionCell.m in Sources */,
+				3040915F2437175F00B10D69 /* CXMetaNSString.m in Sources */,
+				C2738EB124558F0B00B1A853 /* InhibNeedFactualBacteria.m in Sources */,
+				C2738E9B24558F0B00B1A853 /* TrainInnovationsExample.m in Sources */,
+				C2738EC724558F0B00B1A853 /* BrainAdultsMale.m in Sources */,
+				C2738E9F24558F0B00B1A853 /* HealtCopeTitled.m in Sources */,
+				C2738EBE24558F0B00B1A853 /* WhetherAnnual.m in Sources */,
+				304091162435C6DA00B10D69 /* NSArray+CXMixture.m in Sources */,
+				C2738EDE24558F0B00B1A853 /* MinimTreatmentsDiseaseMemory.m in Sources */,
+				C2738EB324558F0B00B1A853 /* CoverOldEcosystems.m in Sources */,
+				C2738ED724558F0B00B1A853 /* PatientsDisseminate.m in Sources */,
+				C2738ECC24558F0B00B1A853 /* DieAffectingRegions.m in Sources */,
+				C2738EC224558F0B00B1A853 /* DelicatelyLink.m in Sources */,
+				C2738EC824558F0B00B1A853 /* BrainOwnersInstructingProvide.m in Sources */,
+				C2738EC524558F0B00B1A853 /* IdentifyAmazing.m in Sources */,
+				C2738E9D24558F0B00B1A853 /* TrainCellLecturers.m in Sources */,
+				C2738EE324558F0B00B1A853 /* YoungLearnReally.m in Sources */,
+				C2738E9124558F0B00B1A853 /* StudentsRecently.m in Sources */,
+				C2738ED924558F0B00B1A853 /* AssistStrategies.m in Sources */,
+				C2738EB924558F0B00B1A853 /* ReceiStreetFoundFocus.m in Sources */,
+				C2738EA924558F0B00B1A853 /* ScienDivisionBroad.m in Sources */,
+				C2738E8D24558F0B00B1A853 /* SizePhoto.m in Sources */,
+				C2738EB424558F0B00B1A853 /* AmaziFurtherSpecialSupported.m in Sources */,
+				C2738EE424558F0B00B1A853 /* ReallyIsolated.m in Sources */,
+				C2738E9524558F0B00B1A853 /* ReducImmuneFatty.m in Sources */,
+				C2738E9724558F0B00B1A853 /* RetreTrackedConclusionsPursue.m in Sources */,
+				C2738EB824558F0B00B1A853 /* ReceiEncouragingTeachingBrain.m in Sources */,
+				C2738E9C24558F0B00B1A853 /* TrainRaceMemories.m in Sources */,
+				C2738ECA24558F0B00B1A853 /* RefinRelatingDiseaseHope.m in Sources */,
+				C2738E8124558F0B00B1A853 /* ReseaLivesProgression.m in Sources */,
+				C2738EAF24558F0B00B1A853 /* InhibProteinSeasonTeaching.m in Sources */,
+				C2738E8224558F0B00B1A853 /* TalentedAwardedTime.m in Sources */,
+				3040911E2436D32F00B10D69 /* CXMethodsPrefixTool.m in Sources */,
+				3010014C24235A9500A52D4A /* CXObjectEntity.m in Sources */,
+				C2738EB524558F0B00B1A853 /* AmaziHighlightsAwarded.m in Sources */,
+				C2738ED624558F0B00B1A853 /* ExcepAwarenessConstant.m in Sources */,
+				C2738EC424558F0B00B1A853 /* AuthorDisorders.m in Sources */,
+				304091212436D3D800B10D69 /* CXMethodsListHelper.m in Sources */,
+				C2738EAC24558F0B00B1A853 /* EstablishCriteria.m in Sources */,
+				C2738ED324558F0B00B1A853 /* BlockAspiringTests.m in Sources */,
+				C2738E8F24558F0B00B1A853 /* TimeBackgroundTeaching.m in Sources */,
+				30222FB8241F13B0002C2954 /* SecondViewController.m in Sources */,
+				C2738EB224558F0B00B1A853 /* InhibYearsComparedPrevious.m in Sources */,
+				C2738ED524558F0B00B1A853 /* ExcepStressorsGroup.m in Sources */,
+				C2738E9824558F0B00B1A853 /* RetreBitData.m in Sources */,
+				C2738ECD24558F0B00B1A853 /* TeamGroupResult.m in Sources */,
+				3040914A2436E8F000B10D69 /* CXMetaNSArray.m in Sources */,
+				30222FAF241F13B0002C2954 /* AppDelegate.m in Sources */,
+				C2738E9424558F0B00B1A853 /* MedicineAssessingNominated.m in Sources */,
+				30222FB5241F13B0002C2954 /* FirstViewController.m in Sources */,
+				C2738EDC24558F0B00B1A853 /* MinimTrialsKnown.m in Sources */,
+				C2738EA024558F0B00B1A853 /* HealtHomeRefinery.m in Sources */,
+				301001522423777800A52D4A /* CXRegularExpressionHelper.m in Sources */,
+				C2738EB724558F0B00B1A853 /* ReceiImageDependsClass.m in Sources */,
+				304091592437120A00B10D69 /* CXMetaUIImageView.m in Sources */,
+				C2738E8724558F0B00B1A853 /* ParasHealthyYear.m in Sources */,
+				3040911C24360A5300B10D69 /* NSMutableString+CXMixture.m in Sources */,
+				C2738EBC24558F0B00B1A853 /* ProjeDiscoverAwarenessSuitable.m in Sources */,
+				30409165243718AF00B10D69 /* CXMetaBaseEntity.m in Sources */,
+				304091412436E86C00B10D69 /* CXMetaUITableView.m in Sources */,
+				C2738EA124558F0B00B1A853 /* HealtGrowingInflatable.m in Sources */,
+				C2738EC624558F0B00B1A853 /* BrainAuthorFixedtermNest.m in Sources */,
+				C2738E8C24558F0B00B1A853 /* FantasticPoorLearned.m in Sources */,
+				C2738E9924558F0B00B1A853 /* RetreLeadPossibleEverything.m in Sources */,
+				C2738EAD24558F0B00B1A853 /* WitnessedHabitatsHumans.m in Sources */,
+				C2738E9024558F0B00B1A853 /* AnimalsFundingYears.m in Sources */,
+				C2738EBA24558F0B00B1A853 /* ProjeDetermineLecturerEcosystem.m in Sources */,
+				C2738E9324558F0B00B1A853 /* ResearchTotal.m in Sources */,
+				C2738ECB24558F0B00B1A853 /* RefinChildhoodMaternal.m in Sources */,
+				C2738EA824558F0B00B1A853 /* FeatureEpisode.m in Sources */,
+				C2738EA324558F0B00B1A853 /* InnovWheatearsProvidingNone.m in Sources */,
+				3046FDCB2444658D003CE4D6 /* CXPropertyHelper.m in Sources */,
+				3040915C2437121C00B10D69 /* CXMetaUILabel.m in Sources */,
+				C2738E8524558F0B00B1A853 /* EmailJury.m in Sources */,
+				C2738EA524558F0B00B1A853 /* JournalWork.m in Sources */,
+				C2738ECF24558F0B00B1A853 /* FantasticSupported.m in Sources */,
+				C2738EDF24558F0B00B1A853 /* ComplexKindDebut.m in Sources */,
+				C2738EC324558F0B00B1A853 /* EventBackyards.m in Sources */,
+				C2738EE224558F0B00B1A853 /* EngagLanguageDroplets.m in Sources */,
+				C2738E8A24558F0B00B1A853 /* EcologistsMuscleUnderpinned.m in Sources */,
+				C2738EA624558F0B00B1A853 /* SupportedResearchConstituent.m in Sources */,
+				C2738E8624558F0B00B1A853 /* ParasStyleGrowthSoft.m in Sources */,
+				304091192435CE3A00B10D69 /* NSString+CXMixture.m in Sources */,
+				C2738E9A24558F0B00B1A853 /* RetreBiggestGrowSeeking.m in Sources */,
+				C2738EAB24558F0B00B1A853 /* FoundEvolution.m in Sources */,
+				C2738EBD24558F0B00B1A853 /* DevelopCoatControl.m in Sources */,
+				C2738E8024558F0B00B1A853 /* ReseaWorldTreatment.m in Sources */,
+				C2738EC024558F0B00B1A853 /* InhibitCells.m in Sources */,
+				C2738ECE24558F0B00B1A853 /* TeamOwners.m in Sources */,
+				C2738EAE24558F0B00B1A853 /* MiceDysfunction.m in Sources */,
+				304091622437179C00B10D69 /* CXMetaUITextField.m in Sources */,
+				C2738EDA24558F0B00B1A853 /* JudgesCellsStriving.m in Sources */,
+				3038D85524206C1E0019F114 /* CXMethodGenerator.m in Sources */,
+				C2738E8924558F0B00B1A853 /* ExcitingEasternCapturing.m in Sources */,
+				C2738EB624558F0B00B1A853 /* HandInfluencedFully.m in Sources */,
+				C2738E9224558F0B00B1A853 /* StudentsState.m in Sources */,
+				C2738EDB24558F0B00B1A853 /* GrowingConflict.m in Sources */,
+				C2738EA724558F0B00B1A853 /* CompletedFeel.m in Sources */,
+				C2738EC924558F0B00B1A853 /* RunnePhotographyResearchersSnow.m in Sources */,
+				30B12ED5242B0A5100F567F6 /* CXMethodEntity.m in Sources */,
+				C2738E8E24558F0B00B1A853 /* LecturerImmediate.m in Sources */,
+				C2738E9E24558F0B00B1A853 /* StudentTeams.m in Sources */,
+				3040915024370F9900B10D69 /* CXMetaCommon.m in Sources */,
+				C2738EDD24558F0B00B1A853 /* MinimCellUnexpectedWorking.m in Sources */,
+				C2738EC124558F0B00B1A853 /* DrivenIntroduced.m in Sources */,
+				C2738ED424558F0B00B1A853 /* ExcepAcidsAdversity.m in Sources */,
+				C2738EA424558F0B00B1A853 /* InnovDiseaseDiseaseOverall.m in Sources */,
+				3010014F24236FBF00A52D4A /* CXParamEntity.m in Sources */,
+				C2738E8424558F0B00B1A853 /* CloningSequencingRoadkill.m in Sources */,
+				C2738ED824558F0B00B1A853 /* GlobalEnvelopeStudying.m in Sources */,
+				C2738E9624558F0B00B1A853 /* ReducKnowledgeCourting.m in Sources */,
+				30409156243711F000B10D69 /* CXMetaUIButton.m in Sources */,
+				C2738EE024558F0B00B1A853 /* PartDiscussionAntibiotics.m in Sources */,
+				C2738EAA24558F0B00B1A853 /* ScienBodysAvailableDonations.m in Sources */,
+				C2738E8324558F0B00B1A853 /* FocusedSeriesAged.m in Sources */,
+				30222FB2241F13B0002C2954 /* SceneDelegate.m in Sources */,
+				C2738ED224558F0B00B1A853 /* BlockMaternalMemory.m in Sources */,
+				C2738E8824558F0B00B1A853 /* ParasMultipleRoleLearning.m in Sources */,
+				C2738ED024558F0B00B1A853 /* BlockRangingTeam.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30222FB9241F13B0002C2954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30222FBA241F13B0002C2954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30222FBE241F13B1002C2954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30222FBF241F13B1002C2954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30222FDA241F13B1002C2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30222FDB241F13B1002C2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30222FDD241F13B1002C2954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SDKMixTools/SDKMixTools-prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SDKMixTools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dany.CXSDKPrefixDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30222FDE241F13B1002C2954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SDKMixTools/SDKMixTools-prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SDKMixTools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dany.CXSDKPrefixDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30222FA5241F13B0002C2954 /* Build configuration list for PBXProject "SDKMixTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30222FDA241F13B1002C2954 /* Debug */,
+				30222FDB241F13B1002C2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30222FDC241F13B1002C2954 /* Build configuration list for PBXNativeTarget "SDKMixTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30222FDD241F13B1002C2954 /* Debug */,
+				30222FDE241F13B1002C2954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30222FA2241F13B0002C2954 /* Project object */;
+}
